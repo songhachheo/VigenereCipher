@@ -1,4 +1,4 @@
-# VigenereCipher
+# Vigenere Cipher Assignment
 
 ### Purpose
 
