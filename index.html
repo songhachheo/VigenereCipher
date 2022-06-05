@@ -1,0 +1,51 @@
+<!--
+    CSCV337 Assignment 4
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Assignment 4 - JavaScript</title>
+</head>
+
+<body>
+  <div id="left" style="width:50%; float: left">
+    <div>
+      <label>Encryption Key</label>
+      <div>
+        <input type="text" id="key" size="50" />
+      </div>
+    </div>
+    </br>
+    <div>
+      <label>Text to Encrypt</label>
+      <div>
+        <textarea id="plaintext" cols="50" rows="5"></textarea>
+      </div>
+    </div>
+    <div>
+      <button id="btnEncrypt" type="button" onclick="btnEncrypt()">Encrypt</button>
+    </div>
+    </br>
+    <div>
+      <label>Text to Decrypt</label>
+      <div>
+        <textarea id="ciphertext" cols="50" rows="5"></textarea>
+      </div>
+    </div>
+    <div>
+      <div>
+        <button id="btnDecrypt" type="button" onclick="btnDecrypt()">Decrypt</button>
+      </div>
+    </div>
+  </div>
+  <script src="vigenere.js"></script>
+  <div id="right" style="width: 50%; float:right">
+    <iframe src="Tests.html" style="width:100%; min-height: 800px" />
+  </div>
+  <script src="vigenere.js"></script>
+</body>
+
+</html>
