@@ -1,7 +1,6 @@
+# Vigenere Cipher Assignment
 [![DeepSource](https://deepsource.io/gh/songhachheo/vigenere-cipher.svg/?label=active+issues&show_trend=true&token=qofbq4Lpo9qubkCXZwMuKkLE)](https://deepsource.io/gh/songhachheo/vigenere-cipher/?ref=repository-badge)
 [![DeepSource](https://deepsource.io/gh/songhachheo/vigenere-cipher.svg/?label=resolved+issues&show_trend=true&token=qofbq4Lpo9qubkCXZwMuKkLE)](https://deepsource.io/gh/songhachheo/vigenere-cipher/?ref=repository-badge)
-# Vigenere Cipher Assignment
-
 ### Purpose
 
 - Build a client side web application using Javascript.
